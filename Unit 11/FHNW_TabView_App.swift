@@ -12,6 +12,8 @@ struct FHNW_TabView_App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            CallBy()
+//            SimpleTab()
         }
     }
 }

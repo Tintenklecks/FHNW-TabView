@@ -12,6 +12,8 @@
 		AA1288F5293E5E9F00A81E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1288F4293E5E9F00A81E30 /* Assets.xcassets */; };
 		AA1288F8293E5E9F00A81E30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1288F7293E5E9F00A81E30 /* Preview Assets.xcassets */; };
 		AA7C23ED2940FC2A001347F5 /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C23EC2940FC2A001347F5 /* Tab3.swift */; };
+		B607E54A2B1378A300BE6909 /* CallByReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = B607E5492B1378A300BE6909 /* CallByReference.swift */; };
+		B6EF1A4A2AFB00F000E05836 /* SimpelTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF1A492AFB00F000E05836 /* SimpelTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AA1288F4293E5E9F00A81E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1288F7293E5E9F00A81E30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA7C23EC2940FC2A001347F5 /* Tab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3.swift; sourceTree = "<group>"; };
+		B607E5492B1378A300BE6909 /* CallByReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallByReference.swift; sourceTree = "<group>"; };
+		B6EF1A492AFB00F000E05836 /* SimpelTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpelTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				AA1288F0293E5E9B00A81E30 /* FHNW_TabView_App.swift */,
 				AA1288F2293E5E9B00A81E30 /* ContentView.swift */,
+				B6EF1A492AFB00F000E05836 /* SimpelTab.swift */,
+				B607E5492B1378A300BE6909 /* CallByReference.swift */,
 				AA7C23EC2940FC2A001347F5 /* Tab3.swift */,
 				AA1288F4293E5E9F00A81E30 /* Assets.xcassets */,
 				AA1288F6293E5E9F00A81E30 /* Preview Content */,
@@ -143,6 +149,8 @@
 				AA1288F3293E5E9B00A81E30 /* ContentView.swift in Sources */,
 				AA1288F1293E5E9B00A81E30 /* FHNW_TabView_App.swift in Sources */,
 				AA7C23ED2940FC2A001347F5 /* Tab3.swift in Sources */,
+				B6EF1A4A2AFB00F000E05836 /* SimpelTab.swift in Sources */,
+				B607E54A2B1378A300BE6909 /* CallByReference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

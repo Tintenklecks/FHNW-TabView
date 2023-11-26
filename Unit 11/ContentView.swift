@@ -20,17 +20,28 @@ struct ContentView: View {
                     .tabItem {
                         Label("Tab 1", systemImage: "car")
                     }
-                    .tag(3)
+                    .tag(1)
                 Text("View 2")
                     .tabItem {
                         Label("Tab 2", systemImage: "car.2.fill")
                     }
-                    .tag(1)
+                    .tag(2)
+                SimpleTab()
+                    .tabItem {
+                        Label("Simple", systemImage: "calendar")
+                    }
+                    .tag(3)
+                CallBy()
+                    .tabItem {
+                        Label("Reference", systemImage: "shared.with.you.circle.fill")
+                    }
+                    .tag(4)
                 Tab3(selectedTab: $selectedIndex)
                     .tabItem {
-                        Label("Tab 3", systemImage: "fuelpump.fill")
+                        Label("Tab 3", systemImage: "123.rectangle.fill")
                     }
-                    .tag(2)
+                    .tag(5)
+
             }
         }
     }
